@@ -30,8 +30,8 @@
 </head>
 
 <body class="font-[Poppins]">
-    <header class="sticky top-0 z-50 mt-5">
-        <nav class="container navbar bg-base-100 mx-auto">
+    <header class="sticky top-4 z-50 mt-4">
+        <nav class="container navbar mx-auto">
             <div class="flex-1">
                 <a class="normal-case text-xl" href="index.html">DIU Lost and Found</a>
             </div>
@@ -49,19 +49,44 @@
     </header>
 
     <main class="container mx-auto px-4">
+        <!-- hero section -->
         <section class="herosection">
             <div class="hero min-h-[75vh]">
                 <div class="hero-content text-center">
                     <div class="max-w-4xl">
                         <h4 class="badge badge-xl border-primary mb-5">DIU Lost and Found</h4>
-                        <h1 class="text-6xl font-semibold">Helping you find what’s <span class="italic">lost</span>, and return what’s <span class="italic">found</span>.</h1>
+                        <h1 class="text-6xl font-semibold">Helping you find what’s <span class="italic">lost</span>, and
+                            return what’s <span class="italic">found</span>.</h1>
                         <h1 class="text-3xl py-6">A smarter, faster way to reunite lost items at DIU.</h1>
-                    
-                        <button class="btn btn-lg font-normal rounded-full btn-primary">Explore Us <i class="fa-solid fa-arrow-right"></i> </button>
+
+                        <button
+                            class="btn btn-lg font-normal rounded-full btn-primary hover:bg-base-100 hover:border-primary hover:text-primary">Explore
+                            Us <i class="fa-solid fa-arrow-right"></i> </button>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- overview -->
+        <section id="overview" class="py-20">
+            <h2 class="text-4xl font-semibold text-center mb-10">Overview</h2>
+            <div class="flex flex-col lg:flex-row gap-10 items-center justify-center bg-base-200 p-5 rounded-3xl">
+                <div class="space-y-6 px-5">
+                    <p class="text-lg text-center max-w-3xl mx-auto">Lost items at DIU have been managed through shared
+                        Google Sheets — a quick fix, but far from user-friendly.
+                        From unsearchable entries to confusing formats, it’s easy to miss or misplace valuable reports.
+                    </p>
+                    <h3 class="text-xl text-center mx-auto italic font-semibold">Our goal? Replace that system with something clean, smart, and
+                        designed for students.</h3>
+                </div>
+                <div>
+                    <img class="w-lg" src="assets/googleSheetSS.png" alt="googleSheetSS">
+                    <p class="text-center">Current System</p>
+                </div>
+            </div>
+        </section>
+
+
 
     </main>
 
