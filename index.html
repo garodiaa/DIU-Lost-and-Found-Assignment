@@ -31,7 +31,7 @@
 
 <body class="font-[Poppins]">
     <header class="sticky top-4 z-50 mt-4">
-        <nav class="container navbar mx-auto flex items-center justify-between">
+        <nav class="container navbar mx-auto flex flex-col gap-5 md:flex-row items-center justify-between">
             <div class="glass rounded-3xl px-3 py-2">
                 <a class="text-xl" href="index.html">DIU Lost and Found</a>
             </div>
@@ -48,10 +48,10 @@
         </nav>
     </header>
 
-    <main class="container mx-auto px-4">
+    <main class="">
         <!-- hero section -->
-        <section class="herosection">
-            <div class="hero min-h-[75vh]">
+        <section class="herosection bg-[url(../assets/hero-bg.jpg)] bg-cover bg-center bg-no-repeat bg-fixed">
+            <div class="hero min-h-[92vh]">
                 <div class="hero-content text-center">
                     <div class="max-w-4xl">
                         <h4 class="badge badge-xl border-primary mb-5">DIU Lost and Found</h4>
@@ -68,7 +68,7 @@
         </section>
 
         <!-- overview -->
-        <section id="overview" class="py-20">
+        <section id="overview" class="container mx-auto py-20">
             <h2 class="text-4xl font-semibold text-center mb-10">Overview</h2>
             <div class="flex flex-col lg:flex-row gap-10 items-center justify-center bg-base-200 p-5 rounded-3xl">
                 <div class="space-y-6 px-5">
@@ -88,7 +88,7 @@
         </section>
 
         <!-- Research -->
-        <section id="research" class="py-20">
+        <section id="research" class="container mx-auto py-20">
             <h2 class="text-4xl font-semibold text-center mb-10">Research</h2>
 
             <div
