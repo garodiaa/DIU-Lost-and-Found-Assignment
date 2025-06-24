@@ -37,7 +37,7 @@
             </div>
             <div class="glass flex-none rounded-3xl">
                 <ul class="flex gap-2 md:gap-8 px-3 py-2 text-xs md:text-sm items-center">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="#hero">Home</a></li>
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#features">Features</a></li>
@@ -50,7 +50,8 @@
 
     <main class="">
         <!-- hero section -->
-        <section class="herosection bg-[url(./assets/hero-bg-comp.jpg)] bg-cover bg-center bg-no-repeat bg-fixed">
+        <section id="hero"
+            class="herosection bg-[url(./assets/hero-bg-comp.jpg)] bg-cover bg-center bg-no-repeat bg-fixed">
             <div class="hero min-h-[92vh]">
                 <div class="hero-content text-center">
                     <div class="max-w-4xl">
@@ -158,34 +159,57 @@
         </section>
 
         <!-- tech stack -->
-         <section id="tech" class="container mx-auto py-20 px-2">
+        <section id="tech" class="container mx-auto py-20 px-2">
             <h2 class="text-4xl font-semibold text-center mb-10">Tech Stack</h2>
-            <div class="flex flex-wrap justify-center gap-10 bg-base-200 p-5 rounded-3xl">
+            <div class="flex flex-wrap items-center justify-center gap-10 bg-base-200 p-5 rounded-3xl">
 
-                <img width="144" height="144" src="https://img.icons8.com/color/144/html-5--v1.png" alt="html-5--v1"/>
+                <img width="144" height="144" src="https://img.icons8.com/color/144/html-5--v1.png" alt="html-5--v1" />
 
-                <img width="144" height="144" src="https://img.icons8.com/color/144/tailwindcss.png" alt="tailwindcss"/>
+                <img width="144" height="144" src="https://img.icons8.com/color/144/tailwindcss.png"
+                    alt="tailwindcss" />
 
+                <img width="144" height="144" src="https://img.icons8.com/color/144/javascript--v1.png"
+                    alt="javascript--v1" />
 
-                <img width="144" height="144" src="https://img.icons8.com/color/144/javascript--v1.png" alt="javascript--v1"/>
+                <img width="144" height="144" src="https://img.icons8.com/color/144/react-native.png"
+                    alt="react-native" />
 
-                <img width="144" height="144" src="https://img.icons8.com/color/144/react-native.png" alt="react-native"/>
+                <img width="144" height="144" src="https://img.icons8.com/fluency/144/node-js.png" alt="node-js" />
 
-                <img width="144" height="144" src="https://img.icons8.com/fluency/144/node-js.png" alt="node-js"/>
+                <img width="144" height="144" src="https://img.icons8.com/color/144/express-js.png" alt="express-js" />
 
-                <img width="144" height="144" src="https://img.icons8.com/color/144/express-js.png" alt="express-js"/>
+                <img width="144" height="144" src="https://img.icons8.com/color/144/mongo-db.png" alt="mongo-db" />
 
-                <img width="144" height="144" src="https://img.icons8.com/color/144/mongo-db.png" alt="mongo-db"/>
-
-                <img width="144" height="144" src="https://img.icons8.com/color/144/google-firebase-console.png" alt="google-firebase-console"/>
-
+                <img width="144" height="144" src="https://img.icons8.com/color/144/google-firebase-console.png"
+                    alt="google-firebase-console" />
 
             </div>
-            
-         </section>
 
-         
-        
+        </section>
+
+        <!-- team -->
+        <section id="#team" class="container mx-auto py-20 px-2">
+            <h2 class="text-4xl font-semibold text-center mb-10">Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 w-max mx-auto">
+
+                <div class="bg-base-200 mx-auto flex-col items-center justify-center p-5 rounded-3xl">
+                    <img class="w-64 rounded-3xl" src="assets/sourav.jpg" />
+                    <h2 class="text-2xl">Sourav Garodia</h2>
+                    <p class="text-sm">Full Stack Developer</p>
+                    <a href="https://github.com/garodiaa" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+
+                <div class="bg-base-200 mx-auto flex-col items-center justify-center p-5 rounded-3xl">
+                    <img class="w-64 rounded-3xl" src="assets/minhaz.jpeg" />
+                    <h2 class="text-2xl">Minhazul Abedin</h2>
+                    <p class="text-sm">Full Stack Developer</p>
+                    <a href="https://github.com/okayabedin" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </section>
+
+
+
 
 
 
