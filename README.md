@@ -11,6 +11,8 @@ Project proposal and planning site for the DIU Lost and Found system.
 
 **Live site**: https://garodiaa.github.io/DIU-Lost-and-Found-Assignment/
 
+**Main project repository**: https://github.com/marslab-diu/diu-lost-and-found
+
 ### About This Repository
 
 This site was built before starting full-stack development to:
